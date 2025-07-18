@@ -1,4 +1,5 @@
 import HeaderSection from "@/components/Header";
+import SearchSection from "@/components/SearchBar";
 import Image from "next/image";
 
 
@@ -13,6 +14,7 @@ export default function Home() {
         width={1000}
         height={1000}
       />
+      <SearchSection />
     </div>
   );
 }
